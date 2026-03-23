@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:5:22-65
+application
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:7:5-31:19
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:7:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:8:9-31
+activity#com.douyin.paylink.MainActivity
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:10:9-17:20
+	android:exported
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:11:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:15:27-74
+service#com.douyin.paylink.PaymentLinkService
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:19:9-26:19
+	android:exported
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:22:13-36
+	android:permission
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:21:13-79
+	android:name
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:20:13-47
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:23:13-25:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:24:17-92
+	android:name
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:24:25-89
+service#com.douyin.paylink.LogcatMonitor
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:29:13-42
+uses-sdk
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml

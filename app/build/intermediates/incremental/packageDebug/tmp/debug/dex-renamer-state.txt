@@ -1,0 +1,7 @@
+#Mon Mar 23 18:50:51 GMT+08:00 2026
+base.1=/Users/keane/.openclaw/workspace/douyin-paylink/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+path.1=10/classes.dex
+base.0=/Users/keane/.openclaw/workspace/douyin-paylink/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex

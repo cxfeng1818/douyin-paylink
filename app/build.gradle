@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.douyin.paylink'
+    compileSdk 33
+    
+    defaultConfig {
+        applicationId "com.douyin.paylink"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+}

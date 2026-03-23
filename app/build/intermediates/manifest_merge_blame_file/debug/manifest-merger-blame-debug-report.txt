@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.douyin.paylink"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.READ_LOGS" />
+12-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:5:5-68
+12-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:5:22-65
+13
+14    <application
+14-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:7:5-31:19
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:label="支付链接截取" >
+17-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:8:9-31
+18        <activity
+18-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:10:9-17:20
+19            android:name="com.douyin.paylink.MainActivity"
+19-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:11:13-41
+20            android:exported="true" >
+20-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:12:13-36
+21            <intent-filter>
+21-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:13:13-16:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:14:17-69
+22-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:15:17-77
+24-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:15:27-74
+25            </intent-filter>
+26        </activity>
+27
+28        <service
+28-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:19:9-26:19
+29            android:name="com.douyin.paylink.PaymentLinkService"
+29-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:20:13-47
+30            android:exported="true"
+30-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:22:13-36
+31            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+31-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:21:13-79
+32            <intent-filter>
+32-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:23:13-25:29
+33                <action android:name="android.accessibilityservice.AccessibilityService" />
+33-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:24:17-92
+33-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:24:25-89
+34            </intent-filter>
+35        </service>
+36        <service
+36-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:28:9-30:40
+37            android:name="com.douyin.paylink.LogcatMonitor"
+37-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:29:13-42
+38            android:exported="false" />
+38-->/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:30:13-37
+39    </application>
+40
+41</manifest>
