@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">支付链接截取</string>
+    <string name="service_description">监控并截取支付宝链接</string>
+</resources>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:2:1-35:12
 	package
 		INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -21,8 +21,8 @@ ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:5:22-65
 application
-ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:7:5-31:19
-INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:7:5-31:19
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:7:5-34:19
+INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:7:5-34:19
 	android:extractNativeLibs
 		INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml
 	android:label
@@ -44,7 +44,7 @@ ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:15:27-74
 service#com.douyin.paylink.PaymentLinkService
-ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:19:9-26:19
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:19:9-29:19
 	android:exported
 		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:22:13-36
 	android:permission
@@ -57,12 +57,18 @@ action#android.accessibilityservice.AccessibilityService
 ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:24:17-92
 	android:name
 		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:24:25-89
-service#com.douyin.paylink.LogcatMonitor
-ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:28:9-30:40
-	android:exported
-		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:30:13-37
+meta-data#android.accessibilityservice
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:26:13-28:72
+	android:resource
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:29:13-42
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:27:17-60
+service#com.douyin.paylink.LogcatMonitor
+ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml:32:13-42
 uses-sdk
 INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/AndroidManifest.xml

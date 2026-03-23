@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.douyin.paylink.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/keane/.openclaw/workspace/douyin-paylink/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,99",
+                        "endColumns": "43,58",
+                        "endOffsets": "94,153"
+                    }
+                }
+            ]
+        }
+    ]
+}

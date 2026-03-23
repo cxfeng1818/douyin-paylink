@@ -27,7 +27,18 @@ public class PaymentLinkService extends AccessibilityService {
     
     @Override
     public void onAccessibilityEvent(AccessibilityEvent event) {
-        // 监听屏幕内容变化
+        // 监听窗口变化
+        if (event.getEventType() == AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) {
+            String packageName = event.getPackageName() != null ? event.getPackageName().toString() : "";
+            String className = event.getClassName() != null ? event.getClassName().toString() : "";
+            
+            // 检测支付宝启动
+            if (packageName.contains("alipay")) {
+                MainActivity.addLog("检测到支付宝启动: " + packageName);
+            }
+        }
+        
+        // 扫描屏幕内容
         AccessibilityNodeInfo rootNode = getRootInActiveWindow();
         if (rootNode != null) {
             scanForPaymentLink(rootNode);
